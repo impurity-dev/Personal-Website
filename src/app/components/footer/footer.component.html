@@ -1,3 +1,24 @@
-<p>
-  footer works!
-</p>
+<div class="container bg-dark">
+  <div class="row">
+    <div class="col text-light">
+        <h3>Quick Links</h3>
+        <ul>
+          <li></li>
+        </ul>
+    </div>
+    <div class="col text-light">
+        <h3>Contact Me</h3>
+        <ul>
+          <li></li>
+        </ul>
+    </div>
+    <div class="col text-light">
+        <h3>Media</h3>
+        <ul>
+          <li *ngFor="let link of mediaLinks">
+            {{ link }}
+          </li>
+        </ul>
+    </div>
+  </div>
+</div>
