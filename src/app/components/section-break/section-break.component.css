@@ -1,0 +1,38 @@
+.hr-glow {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 50px;
+}
+
+.hr-glow > span {
+  position: relative;
+  display: inline-block;
+}
+
+.hr-glow > span:before,
+.hr-glow > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 3px;
+}
+
+.hr-glow > span:before {
+  right: 100%;
+  margin-right: 15px;
+  background-image:linear-gradient(to right, #FF00FF, #AA00FF);
+}
+
+.hr-glow > span:after {
+  left: 100%;
+  margin-left: 15px;
+  background-image:linear-gradient(to left, #FF00FF, #AA00FF);
+}
+
+.hr-glow-title {
+  color: white;
+  font-size: 40px;
+}
