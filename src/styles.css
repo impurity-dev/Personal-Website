@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+/* Text Colors */
+.text-pink-light {
+  color: #EA7AF4;
+}
+
+.text-pink {
+  color: #9B287B;
+}
+
+.text-pink-dark {
+  color: #5C164E;
+}
+
+.text-pink-darker {
+  color: #402039;
+}
+
+.text-dark {
+  color: #170F11;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+/* Background Colors */
+.bgd-pink-light {
+  background-color: #EA7AF4;
+}
+
+.bgd-pink {
+  background-color: #9B287B;
+}
+
+.bgd-pink-dark {
+  background-color: #5C164E;
+}
+
+.bgd-pink-darker {
+  background-color: #402039;
+}
+
+.bgd-pink-darkest {
+  background-color: #170F11;
+}
+
+.bgd-black {
+  background-color: black;
+}
+
+.bgd-white {
+  background-color: white;
+}
