@@ -3,34 +3,46 @@
   text-align: center;
 }
 
+.card-front-image {
+  width: 100%;
+  height: 60%;
+}
+
 
 /* Card Style */
-.maincontainer {
+.card-container {
   position: relative;
   width: 250px;
   height: 320px;
+  margin: 5px auto;
 }
 
-.thecard {
+.card {
   position: absolute;
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
   transition: all 0.5s ease;
+  border: 0px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
 }
 
-.thecard:hover {
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.card:active {
   transform: rotateY(180deg);
 }
 
-.thefront {
+.card-front {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
 
-.theback {
+.card-back {
   position: absolute;
   width: 100%;
   height: 100%;
