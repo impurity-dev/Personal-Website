@@ -50,6 +50,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  padding: 5px;
   backface-visibility: hidden;
   transform: rotateY(180deg);
 }
