@@ -1,4 +1,4 @@
-<div class="bg-dark">
+<div class="bgd-fuschia">
   <div class="container">
     <div class="row">
       <div class="col text-light">
@@ -15,11 +15,7 @@
       </div>
       <div class="col text-light">
           <h3>Media</h3>
-          <ul>
-            <li *ngFor="let link of mediaLinks">
-              {{ link }}
-            </li>
-          </ul>
+          <app-media-tray></app-media-tray>
       </div>
     </div>
   </div>

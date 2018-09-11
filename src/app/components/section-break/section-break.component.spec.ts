@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { SectionBreakComponent } from './section-break.component';
+import { SectionBreakComponent } from "./section-break.component";
 
-describe('SectionBreakComponent', () => {
+describe("SectionBreakComponent", () => {
   let component: SectionBreakComponent;
   let fixture: ComponentFixture<SectionBreakComponent>;
 
@@ -19,7 +19,7 @@ describe('SectionBreakComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

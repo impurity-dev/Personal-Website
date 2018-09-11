@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { FlippableCardComponent } from './flippable-card.component';
+import { FlippableCardComponent } from "./flippable-card.component";
 
-describe('FlippableCardComponent', () => {
+describe("FlippableCardComponent", () => {
   let component: FlippableCardComponent;
   let fixture: ComponentFixture<FlippableCardComponent>;
 
@@ -19,7 +19,7 @@ describe('FlippableCardComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
