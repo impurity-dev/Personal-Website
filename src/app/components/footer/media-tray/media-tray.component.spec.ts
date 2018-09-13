@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { MediaTrayComponent } from './media-tray.component';
+import { MediaTrayComponent } from "./media-tray.component";
 
-describe('MediaTrayComponent', () => {
+describe("MediaTrayComponent", () => {
   let component: MediaTrayComponent;
   let fixture: ComponentFixture<MediaTrayComponent>;
 
@@ -19,7 +19,7 @@ describe('MediaTrayComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

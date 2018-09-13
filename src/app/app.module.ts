@@ -1,5 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
 
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./components/header/header.component";
@@ -10,6 +11,14 @@ import { FlippableCardComponent } from "./components/flippable-card/flippable-ca
 import { CardTrayComponent } from "./components/card-tray/card-tray.component";
 import { MediaTrayComponent } from "./components/footer/media-tray/media-tray.component";
 import { MediaButtonComponent } from "./components/footer/media-tray/media-button/media-button.component";
+import { HomePageComponent } from "./components/home-page/home-page.component";
+import { ExperiencePageComponent } from "./components/experience-page/experience-page.component";
+
+// Routes for the application
+const appRoutes: Routes = [
+  { path: "home", component: HomePageComponent },
+  { path: "experience", component: ExperiencePageComponent },
+];
 
 @NgModule({
   declarations: [
@@ -21,10 +30,16 @@ import { MediaButtonComponent } from "./components/footer/media-tray/media-butto
     FlippableCardComponent,
     CardTrayComponent,
     MediaTrayComponent,
-    MediaButtonComponent
+    MediaButtonComponent,
+    HomePageComponent,
+    ExperiencePageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true } // <-- debugging purposes only
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
