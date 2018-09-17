@@ -1,61 +1,48 @@
-.bg-wall {
-  background-image: url("./assets/img/background.png");
-  background-repeat: repeat;
+/* Default Green Backgrounds */
+
+.bgd-green-5 {
+  background-color: #37546A;
 }
 
-.bgd-void {
-  background-color: #0E0B16;
+.bgd-green-4 {
+  background-color: #479A9B;
 }
 
-.bgd-fuschia {
-  background-color: #A239CA
+.bgd-green-3 {
+  background-color: #48B87A;
 }
 
-.bgd-jewel {
-  background-color: #4717F6;
+.bgd-green-2 {
+  background-color: #7DDA65;
 }
 
-.bgd-stark {
-  background-color: #E7DFDD;
+.bgd-green-1 {
+  background-color: #C5FA7B;
 }
 
-.txtd-void {
-  color: #0E0B16;
+/* Default Green Texts */
+
+.txtd-green-5 {
+  color: #37546A;
 }
 
-.txtd-fuschia {
-  color: #A239CA
+.txtd-green-4 {
+  color: #479A9B;
 }
 
-.txtd-jewel {
-  color: #4717F6;
+.txtd-green-3 {
+  color: #48B87A;
 }
 
-.txtd-stark {
-  color: #E7DFDD;
+.txtd-green-2 {
+  color: #7DDA65;
 }
 
-/* Default Text Colors */
-.txtd-light {
-  color: #EA7AF4;
+.txtd-green-1 {
+  color: #C5FA7B;
 }
 
-.txtd-normal {
-  color: #9B287B;
-}
-
-.txtd-dark-normal {
-  color: #5C164E;
-}
-
-.txtd-dark {
-  color: #402039;
-}
-
-.txtd-darker {
-  color: #170F11;
-}
-
+/* Basic Text Colors */
 .txt-black {
   color: black;
 }
@@ -64,27 +51,7 @@
   color: white;
 }
 
-/* Background Colors */
-.bgd-light {
-  background-color: #EA7AF4;
-}
-
-.bgd-normal {
-  background-color: #9B287B;
-}
-
-.bgd-normal-dark {
-  background-color: #5C164E;
-}
-
-.bgd-dark {
-  background-color: #402039;
-}
-
-.bgd-darker {
-  background-color: #170F11;
-}
-
+/* Basic Background Colors */
 .bgd-black {
   background-color: black;
 }

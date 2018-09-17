@@ -16,12 +16,14 @@ import { ActionBarComponent } from "./components/game-scene/action-bar/action-ba
 import { SpellBookComponent } from "./components/spell-book/spell-book.component";
 import { InventoryComponent } from "./components/game-scene/inventory/inventory.component";
 import { GameSceneComponent } from "./components/game-scene/game-scene.component";
-import { ViewportComponent } from './components/game-scene/viewport/viewport.component';
-import { MinimapComponent } from './components/game-scene/action-bar/minimap/minimap.component';
-import { AvatarComponent } from './components/game-scene/action-bar/avatar/avatar.component';
-import { SpellTrayComponent } from './components/game-scene/action-bar/spell-tray/spell-tray.component';
-import { SettingsTrayComponent } from './components/game-scene/action-bar/settings-tray/settings-tray.component';
-import { InventoryTrayComponent } from './components/game-scene/action-bar/inventory-tray/inventory-tray.component';
+import { ViewportComponent } from "./components/game-scene/viewport/viewport.component";
+import { MinimapComponent } from "./components/game-scene/action-bar/minimap/minimap.component";
+import { AvatarComponent } from "./components/game-scene/action-bar/avatar/avatar.component";
+import { SpellTrayComponent } from "./components/game-scene/action-bar/spell-tray/spell-tray.component";
+import { SettingsTrayComponent } from "./components/game-scene/action-bar/settings-tray/settings-tray.component";
+import { InventoryTrayComponent } from "./components/game-scene/action-bar/inventory-tray/inventory-tray.component";
+import { SpellSlotComponent } from "./components/game-scene/action-bar/spell-tray/spell-slot/spell-slot.component";
+import { SettingSlotComponent } from "./components/game-scene/action-bar/settings-tray/setting-slot/setting-slot.component";
 
 // Routes for the application
 const appRoutes: Routes = [
@@ -52,7 +54,9 @@ const appRoutes: Routes = [
     AvatarComponent,
     SpellTrayComponent,
     SettingsTrayComponent,
-    InventoryTrayComponent
+    InventoryTrayComponent,
+    SpellSlotComponent,
+    SettingSlotComponent
   ],
   imports: [
     BrowserModule,
