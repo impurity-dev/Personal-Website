@@ -12,12 +12,12 @@ import { CardTrayComponent } from "./components/card-tray/card-tray.component";
 import { MediaTrayComponent } from "./components/footer/media-tray/media-tray.component";
 import { MediaButtonComponent } from "./components/footer/media-tray/media-button/media-button.component";
 import { HomePageComponent } from "./components/home-page/home-page.component";
-import { ExperiencePageComponent } from "./components/experience-page/experience-page.component";
+import { InventoryPageComponent } from "./components/inventory-page/inventory-page.component";
 
 // Routes for the application
 const appRoutes: Routes = [
-  { path: "home", component: HomePageComponent },
-  { path: "experience", component: ExperiencePageComponent },
+  { path: "*", component: HomePageComponent },
+  { path: "inventory", component: InventoryPageComponent },
 ];
 
 @NgModule({
@@ -32,7 +32,7 @@ const appRoutes: Routes = [
     MediaTrayComponent,
     MediaButtonComponent,
     HomePageComponent,
-    ExperiencePageComponent
+    InventoryPageComponent
   ],
   imports: [
     BrowserModule,

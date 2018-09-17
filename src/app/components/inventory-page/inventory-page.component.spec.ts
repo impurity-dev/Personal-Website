@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ExperiencePageComponent } from './experience-page.component';
+import { InventoryPageComponent } from './inventory-page.component';
 
-describe('ExperiencePageComponent', () => {
-  let component: ExperiencePageComponent;
-  let fixture: ComponentFixture<ExperiencePageComponent>;
+describe('InventoryPageComponent', () => {
+  let component: InventoryPageComponent;
+  let fixture: ComponentFixture<InventoryPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ExperiencePageComponent ]
+      declarations: [ InventoryPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ExperiencePageComponent);
+    fixture = TestBed.createComponent(InventoryPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
