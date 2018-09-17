@@ -1,3 +1,8 @@
+.bg-wall {
+  background-image: url("./assets/img/background.png");
+  background-repeat: repeat;
+}
+
 .bgd-void {
   background-color: #0E0B16;
 }
