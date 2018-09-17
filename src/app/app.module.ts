@@ -6,7 +6,6 @@ import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { SectionBreakComponent } from "./components/section-break/section-break.component";
-import { CarouselComponent } from "./components/carousel/carousel.component";
 import { FlippableCardComponent } from "./components/flippable-card/flippable-card.component";
 import { CardTrayComponent } from "./components/card-tray/card-tray.component";
 import { MediaTrayComponent } from "./components/footer/media-tray/media-tray.component";
@@ -17,6 +16,7 @@ import { SpellBookComponent } from "./components/spell-book/spell-book.component
 import { InventoryComponent } from "./components/game-scene/inventory/inventory.component";
 import { GameSceneComponent } from "./components/game-scene/game-scene.component";
 import { ViewportComponent } from "./components/game-scene/viewport/viewport.component";
+import { BaseFloorComponent } from "./components/game-scene/viewport/base-floor/base-floor.component";
 import { MinimapComponent } from "./components/game-scene/action-bar/minimap/minimap.component";
 import { AvatarComponent } from "./components/game-scene/action-bar/avatar/avatar.component";
 import { SpellTrayComponent } from "./components/game-scene/action-bar/spell-tray/spell-tray.component";
@@ -39,7 +39,6 @@ const appRoutes: Routes = [
     HeaderComponent,
     FooterComponent,
     SectionBreakComponent,
-    CarouselComponent,
     FlippableCardComponent,
     CardTrayComponent,
     MediaTrayComponent,
@@ -56,7 +55,8 @@ const appRoutes: Routes = [
     SettingsTrayComponent,
     InventoryTrayComponent,
     SpellSlotComponent,
-    SettingSlotComponent
+    SettingSlotComponent,
+    BaseFloorComponent
   ],
   imports: [
     BrowserModule,
