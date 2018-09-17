@@ -1,5 +1,6 @@
 .settings-tray-container {
   width: 100%;
 	height: 100%;
-	background: pink;
+  background-image: url("../../../../../assets/img/inventory/slot.png"); /* TODO: Add Settings */
+  background-size: contain;
 }

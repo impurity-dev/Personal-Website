@@ -1,5 +1,6 @@
 .avatar-container {
   width: 100%;
 	height: 100%;
-	background: red;
+  background-image: url("../../../../../assets/img/inventory/slot.png"); /* TODO: Add Avatar Gif */
+  background-size: contain;
 }
