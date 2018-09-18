@@ -1,0 +1,29 @@
+.action-bar-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+}
+
+.action-bar-row-container {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.action-bar-row-container-large {
+  padding: 0;
+  width: 250px;
+  height: 250px;
+}
+
+.action-bar-row-container-small {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 20%;
+  width: 100%;
+  height: 200px;
+}

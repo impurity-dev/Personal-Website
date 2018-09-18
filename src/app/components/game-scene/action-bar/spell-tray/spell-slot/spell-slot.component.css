@@ -1,0 +1,11 @@
+.spell-slot-container {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background-size: cover;
+}
+
+#slot-image {
+  width: 64px;
+  width: 64px;
+}

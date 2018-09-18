@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+/* Default Green Backgrounds */
+
+.bgd-green-5 {
+  background-color: #37546A;
+}
+
+.bgd-green-4 {
+  background-color: #479A9B;
+}
+
+.bgd-green-3 {
+  background-color: #48B87A;
+}
+
+.bgd-green-2 {
+  background-color: #7DDA65;
+}
+
+.bgd-green-1 {
+  background-color: #C5FA7B;
+}
+
+/* Default Green Texts */
+
+.txtd-green-5 {
+  color: #37546A;
+}
+
+.txtd-green-4 {
+  color: #479A9B;
+}
+
+.txtd-green-3 {
+  color: #48B87A;
+}
+
+.txtd-green-2 {
+  color: #7DDA65;
+}
+
+.txtd-green-1 {
+  color: #C5FA7B;
+}
+
+/* Basic Text Colors */
+.txt-black {
+  color: black;
+}
+
+.txt-white {
+  color: white;
+}
+
+/* Basic Background Colors */
+.bgd-black {
+  background-color: black;
+}
+
+.bgd-white {
+  background-color: white;
+}
