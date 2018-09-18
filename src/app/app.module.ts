@@ -20,10 +20,11 @@ import { MinimapComponent } from "./components/game-scene/action-bar/minimap/min
 import { AvatarComponent } from "./components/game-scene/action-bar/avatar/avatar.component";
 import { SpellTrayComponent } from "./components/game-scene/action-bar/spell-tray/spell-tray.component";
 import { SettingsTrayComponent } from "./components/game-scene/action-bar/settings-tray/settings-tray.component";
-import { InventoryTrayComponent } from "./components/game-scene/action-bar/inventory-tray/inventory-tray.component";
 import { SpellSlotComponent } from "./components/game-scene/action-bar/spell-tray/spell-slot/spell-slot.component";
 import { SettingSlotComponent } from "./components/game-scene/action-bar/settings-tray/setting-slot/setting-slot.component";
 import { InventoryComponent } from "./components/inventory/inventory.component";
+import { ItemTrayComponent } from "./components/game-scene/action-bar/item-tray/item-tray.component";
+import { ItemSlotComponent } from "./components/game-scene/action-bar/item-tray/item-slot/item-slot.component";
 
 // Routes for the application
 const appRoutes: Routes = [
@@ -53,11 +54,12 @@ const appRoutes: Routes = [
     AvatarComponent,
     SpellTrayComponent,
     SettingsTrayComponent,
-    InventoryTrayComponent,
     SpellSlotComponent,
     SettingSlotComponent,
     BaseFloorComponent,
-    InventoryComponent
+    InventoryComponent,
+    ItemTrayComponent,
+    ItemSlotComponent
   ],
   imports: [
     BrowserModule,
