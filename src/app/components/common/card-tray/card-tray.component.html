@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <!-- Window Mock -->
+  <div class="row">
+    <app-section-break title="Inventory" class="col-12"></app-section-break>
+  </div>
+  <div class="row">
+      <app-flippable-card  *ngFor="let card of cards" class="col col-xs-12 col-sm-6 col-md-5 col-lg-5 col-xl-3" imagePath={{card.imagePath}} header={{card.header}}
+      subHeader={{card.subHeader}} description={{card.description}}></app-flippable-card>
+  </div>
+</div>

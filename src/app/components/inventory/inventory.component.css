@@ -1,0 +1,14 @@
+.inventory-container {
+  background-image: url("../../../assets/img/viewport/floor.png");
+  background-repeat: repeat;
+}
+
+.character-container {
+  background-image: url("../../../assets/img/viewport/wall.png");
+  background-repeat: repeat;
+}
+
+.window-mock-container {
+  background-image: url("../../../assets/img/viewport/wall.png");
+  background-repeat: repeat;
+}

@@ -6,14 +6,13 @@ import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { SectionBreakComponent } from "./components/section-break/section-break.component";
-import { FlippableCardComponent } from "./components/flippable-card/flippable-card.component";
-import { CardTrayComponent } from "./components/card-tray/card-tray.component";
+import { FlippableCardComponent } from "./components/common/card-tray/flippable-card/flippable-card.component";
+import { CardTrayComponent } from "./components/common/card-tray/card-tray.component";
 import { MediaTrayComponent } from "./components/footer/media-tray/media-tray.component";
 import { MediaButtonComponent } from "./components/footer/media-tray/media-button/media-button.component";
 import { AchievementPageComponent } from "./components/achievement-page/achievement-page.component";
 import { ActionBarComponent } from "./components/game-scene/action-bar/action-bar.component";
 import { SpellBookComponent } from "./components/spell-book/spell-book.component";
-import { InventoryComponent } from "./components/game-scene/inventory/inventory.component";
 import { GameSceneComponent } from "./components/game-scene/game-scene.component";
 import { ViewportComponent } from "./components/game-scene/viewport/viewport.component";
 import { BaseFloorComponent } from "./components/game-scene/viewport/base-floor/base-floor.component";
@@ -24,10 +23,12 @@ import { SettingsTrayComponent } from "./components/game-scene/action-bar/settin
 import { InventoryTrayComponent } from "./components/game-scene/action-bar/inventory-tray/inventory-tray.component";
 import { SpellSlotComponent } from "./components/game-scene/action-bar/spell-tray/spell-slot/spell-slot.component";
 import { SettingSlotComponent } from "./components/game-scene/action-bar/settings-tray/setting-slot/setting-slot.component";
+import { InventoryComponent } from "./components/inventory/inventory.component";
 
 // Routes for the application
 const appRoutes: Routes = [
   { path: "", component: GameSceneComponent },
+  { path: "inventory", component: InventoryComponent },
   { path: "spells", component: SpellBookComponent },
   { path: "achievements", component: AchievementPageComponent },
   { path: "**", component: GameSceneComponent }, // TODO: Page Not found
@@ -46,7 +47,6 @@ const appRoutes: Routes = [
     AchievementPageComponent,
     ActionBarComponent,
     SpellBookComponent,
-    InventoryComponent,
     GameSceneComponent,
     ViewportComponent,
     MinimapComponent,
@@ -56,7 +56,8 @@ const appRoutes: Routes = [
     InventoryTrayComponent,
     SpellSlotComponent,
     SettingSlotComponent,
-    BaseFloorComponent
+    BaseFloorComponent,
+    InventoryComponent
   ],
   imports: [
     BrowserModule,
