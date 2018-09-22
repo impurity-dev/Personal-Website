@@ -3,4 +3,5 @@
 	height: 100%;
   background-image: url("../../../../../assets/img/inventory/slot.png"); /* TODO: Add Items */
   background-size: contain;
+  padding-top: 10px;
 }

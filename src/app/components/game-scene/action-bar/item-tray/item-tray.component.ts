@@ -8,34 +8,15 @@ import {Item} from "../../../../models/Item/item";
 })
 export class ItemTrayComponent implements OnInit {
 
-  items: Item[];
+  items: Item[][];
 
   constructor() {
+    // TODO: Add actual item pathing and types
     this.items = [
-      new Item(),
-      new Item(),
-      new Item(),
-      new Item(),
-
-      new Item(),
-      new Item(),
-      new Item(),
-      new Item(),
-
-      new Item(),
-      new Item(),
-      new Item(),
-      new Item(),
-
-      new Item(),
-      new Item(),
-      new Item(),
-      new Item(),
-
-      new Item(),
-      new Item(),
-      new Item(),
-      new Item(),
+      [new Item(), new Item(), new Item(), new Item(), new Item()],
+      [new Item(), new Item(), new Item(), new Item(), new Item()],
+      [new Item(), new Item(), new Item(), new Item(), new Item()],
+      [new Item(), new Item(), new Item(), new Item(), new Item()],
     ];
    }
 

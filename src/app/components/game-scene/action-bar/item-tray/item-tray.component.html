@@ -1,15 +1,18 @@
-<div class="item-tray-container container">
-  <div class="row">
-    <app-item-slot class="col col-3" *ngFor="let item of items"></app-item-slot>
-  </div>
+<table class="item-tray-container">
+  <tr *ngFor="let itemRow of items; let i = index">
+    <td *ngFor="let item of items[i]">
+      <app-item-slot></app-item-slot>
+    </td>
+  </tr>
 
-  <div class="row">
+
+  <tr>
     <!-- TODO: Button Tray -->
-    <button type="button" class="col btn btn-primary">1</button>
-    <button type="button" class="col btn btn-primary">2</button>
-    <button type="button" class="col btn btn-primary">3</button>
-    <button type="button" class="col btn btn-primary">4</button>
-    <button type="button" class="col btn btn-primary">5</button>
-    <button type="button" class="col btn btn-primary">6</button>
-  </div>
-</div>
+    <td><a routerLink="/inventory" class="col-2 btnd-default">I</a></td>
+    <td><a routerLink="/spells" class="col-2 btnd-default">S</a></td>
+    <td><a routerLink="/inventory" class="col-2 btnd-default">S</a></td>
+    <td><a routerLink="/spells" class="col-2 btnd-default">I</a></td>
+    <td><a routerLink="/inventory" class="col-2 btnd-default">S</a></td>
+    <td><a routerLink="/spells" class="col-2 btnd-default">I</a></td>
+  </tr>
+</table>

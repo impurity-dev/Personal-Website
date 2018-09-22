@@ -59,3 +59,15 @@
 .bgd-white {
   background-color: white;
 }
+
+/* Button Backgrounds */
+.btnd-default {
+  background-image: url("assets/img/social-media/default-button.png");
+  background-size: cover;
+  background-color: transparent;
+  border-color: transparent;
+  display: table-cell;
+  float: none;
+  height: 50px;
+  width: 50px;
+}
