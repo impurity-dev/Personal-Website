@@ -22,5 +22,4 @@ export class ItemTrayComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

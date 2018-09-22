@@ -25,7 +25,8 @@ import { SettingSlotComponent } from "./components/game-scene/action-bar/setting
 import { InventoryComponent } from "./components/inventory/inventory.component";
 import { ItemTrayComponent } from "./components/game-scene/action-bar/item-tray/item-tray.component";
 import { ItemSlotComponent } from "./components/game-scene/action-bar/item-tray/item-slot/item-slot.component";
-import { ItemSlotButtonsComponent } from './components/game-scene/action-bar/item-tray/item-slot-buttons/item-slot-buttons.component';
+import { ItemTabComponent } from "./components/game-scene/action-bar/item-tray/item-tab-tray/item-tab/item-tab.component";
+import { ItemTabTrayComponent } from "./components/game-scene/action-bar/item-tray/item-tab-tray/item-tab-tray.component";
 
 // Routes for the application
 const appRoutes: Routes = [
@@ -61,7 +62,8 @@ const appRoutes: Routes = [
     InventoryComponent,
     ItemTrayComponent,
     ItemSlotComponent,
-    ItemSlotButtonsComponent
+    ItemTabComponent,
+    ItemTabTrayComponent
   ],
   imports: [
     BrowserModule,
