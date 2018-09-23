@@ -1,0 +1,15 @@
+<div class="bgd-menu item-tray-container">
+  <table id="item-tray">
+
+    <!-- Item Tab that will cycle through items backpacks -->
+    <app-item-tab-tray></app-item-tab-tray>
+
+    <!-- Item Slots that can be populated with items -->
+    <tr *ngFor="let itemRow of items; let i = index">
+      <td *ngFor="let item of items[i]">
+        <app-item-slot></app-item-slot>
+      </td>
+    </tr>
+
+  </table>
+</div>

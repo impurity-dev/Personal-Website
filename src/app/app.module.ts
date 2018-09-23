@@ -3,13 +3,9 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 
 import { AppComponent } from "./app.component";
-import { HeaderComponent } from "./components/header/header.component";
-import { FooterComponent } from "./components/footer/footer.component";
 import { SectionBreakComponent } from "./components/section-break/section-break.component";
 import { FlippableCardComponent } from "./components/common/card-tray/flippable-card/flippable-card.component";
 import { CardTrayComponent } from "./components/common/card-tray/card-tray.component";
-import { MediaTrayComponent } from "./components/footer/media-tray/media-tray.component";
-import { MediaButtonComponent } from "./components/footer/media-tray/media-button/media-button.component";
 import { AchievementPageComponent } from "./components/achievement-page/achievement-page.component";
 import { ActionBarComponent } from "./components/game-scene/action-bar/action-bar.component";
 import { SpellBookComponent } from "./components/spell-book/spell-book.component";
@@ -20,10 +16,15 @@ import { MinimapComponent } from "./components/game-scene/action-bar/minimap/min
 import { AvatarComponent } from "./components/game-scene/action-bar/avatar/avatar.component";
 import { SpellTrayComponent } from "./components/game-scene/action-bar/spell-tray/spell-tray.component";
 import { SettingsTrayComponent } from "./components/game-scene/action-bar/settings-tray/settings-tray.component";
-import { InventoryTrayComponent } from "./components/game-scene/action-bar/inventory-tray/inventory-tray.component";
 import { SpellSlotComponent } from "./components/game-scene/action-bar/spell-tray/spell-slot/spell-slot.component";
 import { SettingSlotComponent } from "./components/game-scene/action-bar/settings-tray/setting-slot/setting-slot.component";
 import { InventoryComponent } from "./components/inventory/inventory.component";
+import { ItemTrayComponent } from "./components/game-scene/action-bar/item-tray/item-tray.component";
+import { ItemSlotComponent } from "./components/game-scene/action-bar/item-tray/item-slot/item-slot.component";
+import { ItemTabComponent } from "./components/game-scene/action-bar/item-tray/item-tab-tray/item-tab/item-tab.component";
+import { ItemTabTrayComponent } from "./components/game-scene/action-bar/item-tray/item-tab-tray/item-tab-tray.component";
+import { SpellCardTrayComponent } from './components/spell-book/spell-card-tray/spell-card-tray.component';
+import { SpellCardComponent } from './components/spell-book/spell-card-tray/spell-card/spell-card.component';
 
 // Routes for the application
 const appRoutes: Routes = [
@@ -37,13 +38,9 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
     SectionBreakComponent,
     FlippableCardComponent,
     CardTrayComponent,
-    MediaTrayComponent,
-    MediaButtonComponent,
     AchievementPageComponent,
     ActionBarComponent,
     SpellBookComponent,
@@ -53,11 +50,16 @@ const appRoutes: Routes = [
     AvatarComponent,
     SpellTrayComponent,
     SettingsTrayComponent,
-    InventoryTrayComponent,
     SpellSlotComponent,
     SettingSlotComponent,
     BaseFloorComponent,
-    InventoryComponent
+    InventoryComponent,
+    ItemTrayComponent,
+    ItemSlotComponent,
+    ItemTabComponent,
+    ItemTabTrayComponent,
+    SpellCardTrayComponent,
+    SpellCardComponent
   ],
   imports: [
     BrowserModule,
