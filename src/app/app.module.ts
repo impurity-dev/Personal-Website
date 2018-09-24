@@ -20,11 +20,12 @@ import { SpellSlotComponent } from "./components/game-scene/action-bar/spell-tra
 import { SettingSlotComponent } from "./components/game-scene/action-bar/settings-tray/setting-slot/setting-slot.component";
 import { InventoryComponent } from "./components/inventory/inventory.component";
 import { ItemTrayComponent } from "./components/game-scene/action-bar/item-tray/item-tray.component";
-import { ItemSlotComponent } from "./components/game-scene/action-bar/item-tray/item-slot/item-slot.component";
+import { ItemSlotComponent } from "./components/game-scene/action-bar/item-tray/item-slot-tray/item-slot/item-slot.component";
 import { ItemTabComponent } from "./components/game-scene/action-bar/item-tray/item-tab-tray/item-tab/item-tab.component";
 import { ItemTabTrayComponent } from "./components/game-scene/action-bar/item-tray/item-tab-tray/item-tab-tray.component";
-import { SpellCardTrayComponent } from './components/spell-book/spell-card-tray/spell-card-tray.component';
-import { SpellCardComponent } from './components/spell-book/spell-card-tray/spell-card/spell-card.component';
+import { SpellCardTrayComponent } from "./components/spell-book/spell-card-tray/spell-card-tray.component";
+import { SpellCardComponent } from "./components/spell-book/spell-card-tray/spell-card/spell-card.component";
+import { ItemSlotTrayComponent } from "./components/game-scene/action-bar/item-tray/item-slot-tray/item-slot-tray.component";
 
 // Routes for the application
 const appRoutes: Routes = [
@@ -59,7 +60,8 @@ const appRoutes: Routes = [
     ItemTabComponent,
     ItemTabTrayComponent,
     SpellCardTrayComponent,
-    SpellCardComponent
+    SpellCardComponent,
+    ItemSlotTrayComponent
   ],
   imports: [
     BrowserModule,
