@@ -1,5 +1,10 @@
 import { Component, OnInit } from "@angular/core";
-import {Item} from "../../../../../models/game-scene/action-bar/item-tray/item-slot-tray/item-slot/Item/Item";
+import { Item } from "../../../../../models/Items/Item";
+import { BluePotion } from "../../../../../models/Items/Potions/BluePotion";
+import { YellowPotion } from "../../../../../models/Items/Potions/YellowPotion";
+import { GreenPotion } from "../../../../../models/Items/Potions/GreenPotion";
+import { PinkPotion } from "../../../../../models/Items/Potions/PinkPotion";
+import { PurplePotion } from "../../../../../models/Items/Potions/PurplePotion";
 
 @Component({
   selector: "app-item-slot-tray",
@@ -11,12 +16,11 @@ export class ItemSlotTrayComponent implements OnInit {
   items: Item[][];
 
   constructor() {
-    // TODO: Add actual item pathing and types
     this.items = [
-      [new Item(), new Item(), new Item(), new Item(), new Item()],
-      [new Item(), new Item(), new Item(), new Item(), new Item()],
-      [new Item(), new Item(), new Item(), new Item(), new Item()],
-      [new Item(), new Item(), new Item(), new Item(), new Item()],
+      [new BluePotion(), new YellowPotion(), new GreenPotion(), new PinkPotion(), new PurplePotion()],
+      [new PurplePotion(), new BluePotion(), new YellowPotion(), new GreenPotion(), new PinkPotion()],
+      [new PinkPotion(), new PurplePotion(), new BluePotion(), new YellowPotion(), new GreenPotion()],
+      [new GreenPotion(), new PinkPotion(), new PurplePotion(), new BluePotion(), new YellowPotion()],
     ];
    }
 

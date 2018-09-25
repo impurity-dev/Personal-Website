@@ -1,5 +1,5 @@
 <tr *ngFor="let itemRow of items; let i = index">
   <td *ngFor="let item of items[i]">
-    <app-item-slot></app-item-slot>
+    <app-item-slot imagePath={{item.imagePath}} name={{item.name}} ></app-item-slot>
   </td>
 </tr>

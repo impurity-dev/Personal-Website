@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 
-import {ItemTab} from "../../../../../models/game-scene/action-bar/item-tray/item-tab-tray/item-tab/ItemTab";
+import {ItemTab} from "../../../../../models/Items/ItemTabs/ItemTab";
 
 @Component({
   selector: "app-item-tab-tray",

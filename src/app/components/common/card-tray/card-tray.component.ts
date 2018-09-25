@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 
-import {SpellCard} from "../../../models/spell-book/SpellCard";
+import {SpellCard} from "../../../models/Spells/SpellCard";
 
 @Component({
   selector: "app-card-tray",

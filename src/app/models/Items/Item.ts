@@ -2,7 +2,7 @@ export class Item {
   protected imagePath: string;
   protected name: string;
 
-  public Item(imagePath: string, name: string) {
+  constructor(imagePath: string, name: string) {
     this.imagePath = imagePath;
     this.name = name;
   }
