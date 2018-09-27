@@ -7,10 +7,16 @@ import { Component, OnInit } from "@angular/core";
 })
 export class ItemTrayComponent implements OnInit {
 
-  constructor() {
+  selectedIndex: number;
 
+  constructor() {
+    this.selectedIndex = 0;
    }
 
   ngOnInit() {
+  }
+
+  updateSelectedIndex(updatedIndex) {
+    this.selectedIndex = updatedIndex;
   }
 }
