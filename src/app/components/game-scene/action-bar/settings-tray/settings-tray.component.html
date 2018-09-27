@@ -1,3 +1,7 @@
 <div class="bgd-menu settings-tray-container">
-  <!-- TODO: Make settings Tray -->
+    <tr *ngFor="let settingsRow of settings; let i = index">
+        <td *ngFor="let setting of settings[i]">
+          <app-setting-slot imagePath={{setting.imagePath}} name={{setting.name}} ></app-setting-slot>
+        </td>
+      </tr>
 </div>
