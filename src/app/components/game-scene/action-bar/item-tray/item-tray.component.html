@@ -1,7 +1,8 @@
 <div class="bgd-menu item-tray-container">
   <table>
     <!-- Item Tab that will cycle through items backpacks -->
-    <app-item-tab-tray></app-item-tab-tray>
+    <app-item-tab-tray selectedIndex={{selectedIndex}}
+    (selectedIndexChange)="updateSelectedIndex($event)"></app-item-tab-tray>
 
     <!-- Item Slots that can be populated with items -->
     <app-item-slot-tray></app-item-slot-tray>

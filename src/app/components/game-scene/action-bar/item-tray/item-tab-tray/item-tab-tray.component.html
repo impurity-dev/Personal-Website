@@ -1,5 +1,4 @@
-<th><app-item-tab [isActive]=true></app-item-tab></th>
-<th><app-item-tab [isActive]=false></app-item-tab></th>
-<th><app-item-tab [isActive]=false></app-item-tab></th>
-<th><app-item-tab [isActive]=false></app-item-tab></th>
-<th><app-item-tab [isActive]=false></app-item-tab></th>
+<th *ngFor="let tab of itemTabs; let i = index">
+  <app-item-tab index={{i}} selectedIndex={{selectedIndex}}
+  (selectedIndexChange)="updateSelectedIndex($event)"></app-item-tab>
+</th>
