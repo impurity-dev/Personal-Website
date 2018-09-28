@@ -1,17 +1,10 @@
-export class Item {
-  protected imagePath: string;
-  protected name: string;
+import { NamedImage } from "../NamedImage";
+
+// TODO: Implement drag drop capabilities
+export class Item extends NamedImage {
 
   constructor(imagePath: string, name: string) {
-    this.imagePath = imagePath;
-    this.name = name;
+    super(imagePath, name);
   }
 
-  public getImagePath(): string {
-    return this.imagePath;
-  }
-
-  public getNamePath(): string {
-    return this.name;
-  }
 }

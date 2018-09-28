@@ -15,13 +15,12 @@ export class ItemTabTrayComponent implements OnInit {
   constructor() {
     this.selectedIndexChange = new EventEmitter<number>();
 
-    // TODO: Give each tab an image path
     this.itemTabs = [
-      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 1"),
-      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 2"),
-      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 3"),
-      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 4"),
-      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 5")
+      new ItemTab("Blue", "Bag 1"),
+      new ItemTab("Green", "Bag 2"),
+      new ItemTab("Purple", "Bag 3"),
+      new ItemTab("Yellow", "Bag 4"),
+      new ItemTab("Pink", "Bag 5")
     ];
   }
 
