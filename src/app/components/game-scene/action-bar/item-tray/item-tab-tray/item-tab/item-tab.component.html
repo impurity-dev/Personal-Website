@@ -1,3 +1,5 @@
 <div (click)="toggleTab()" [ngClass]="index === selectedIndex ? 'active-tab' : 'not-active-tab'">
-
+  <div class="tab-item-tooltip d-inline-block" data-toggle="tooltip" title={{name}} >
+      <img class="tab-item-image" src={{imagePath}} alt={{name}} />
+  </div>
 </div>

@@ -7,6 +7,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class ItemTrayComponent implements OnInit {
 
+  // The currently selected index
   selectedIndex: number;
 
   constructor() {
@@ -16,6 +17,11 @@ export class ItemTrayComponent implements OnInit {
   ngOnInit() {
   }
 
+  /**
+   * Update the selected index at the top parent
+   * event handler
+   * @param updatedIndex index that has been selected
+   */
   updateSelectedIndex(updatedIndex) {
     this.selectedIndex = updatedIndex;
   }
