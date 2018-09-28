@@ -76,3 +76,13 @@
 .bgd-menu {
   background-color:  #AB9174;
 }
+
+/* Blanket Style */
+/* Remove image highlight */
+img {
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
