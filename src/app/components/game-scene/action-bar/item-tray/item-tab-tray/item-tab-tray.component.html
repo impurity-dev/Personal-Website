@@ -1,4 +1,5 @@
 <th *ngFor="let tab of itemTabs; let i = index">
   <app-item-tab index={{i}} selectedIndex={{selectedIndex}}
+  imagePath={{tab.imagePath}} name={{tab.name}}
   (selectedIndexChange)="updateSelectedIndex($event)"></app-item-tab>
 </th>

@@ -17,10 +17,11 @@ export class ItemTabTrayComponent implements OnInit {
 
     // TODO: Give each tab an image path
     this.itemTabs = [
-      new ItemTab("../../../../../../assets/img/potions/Blue.png", "DEFAULT"),
-      new ItemTab("../../../../../../assets/img/potions/Blue.png", "DEFAULT"),
-      new ItemTab("../../../../../../assets/img/potions/Blue.png", "DEFAULT"),
-      new ItemTab("../../../../../../assets/img/potions/Blue.png", "DEFAULT")
+      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 1"),
+      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 2"),
+      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 3"),
+      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 4"),
+      new ItemTab("../../../../../../assets/img/potions/Blue.png", "Bag 5")
     ];
   }
 

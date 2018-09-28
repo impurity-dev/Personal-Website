@@ -5,13 +5,11 @@
   height: 48px;
 }
 
-.slot-item-image {
+.slot-item-image-tooltip {
   width: 100%;
   height: 100%;
 }
 
-
-.slot-item-image-tooltip {
-  width: 100%;
-  height: 100%;
+.slot-item-image {
+  margin: auto;
 }

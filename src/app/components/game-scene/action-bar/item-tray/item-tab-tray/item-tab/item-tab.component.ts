@@ -6,11 +6,20 @@ import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
   styleUrls: ["./item-tab.component.css"]
 })
 export class ItemTabComponent implements OnInit {
-
+  // The currently selected index
   @Input() selectedIndex: number;
+  // Event to notify parent that this tab was activated
   @Output() selectedIndexChange: EventEmitter<number>;
+  // The index for the current slot
   @Input() index: number;
+  // Tab name
+  @Input() name: String;
+  // Tab icon imagePath
+  @Input() imagePath: String;
 
+  /**
+   * Item tab represents a bag that is equipped
+   */
   constructor() {
     this.selectedIndexChange = new EventEmitter<number>();
    }
