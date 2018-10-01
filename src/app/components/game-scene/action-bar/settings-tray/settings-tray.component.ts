@@ -13,19 +13,16 @@ export class SettingsTrayComponent implements OnInit {
   constructor() {
     this.settings = [
       [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
       [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
       [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
       [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
       [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
-      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
-      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")]
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+
     ];
   }
 

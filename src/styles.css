@@ -73,8 +73,20 @@
 }
 
 /* Misc Colors */
-.bgd-menu {
+.bgd-menu-1 {
+  background-color:  #C7B68B;
+}
+.bgd-menu-2 {
   background-color:  #AB9174;
+}
+.bgd-menu-3 {
+  background-color:  #876D60;
+}
+.bgd-menu-4 {
+  background-color:  #5A4D49;
+}
+.bgd-menu-5 {
+  background-color:  #312B2A;
 }
 
 /* Blanket Style */
