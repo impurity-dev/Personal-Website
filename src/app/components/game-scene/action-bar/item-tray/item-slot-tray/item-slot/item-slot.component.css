@@ -11,12 +11,18 @@
 }
 
 .slot-item-image {
-  margin: auto;
+  width: 48px;
+  height: 48px;
 }
 
 /* 1400PX WIDTH */
 @media only screen and (max-width: 1400px) {
   .item-slot-container {
+    width: 38px;
+    height: 38px;
+  }
+
+  .slot-item-image {
     width: 38px;
     height: 38px;
   }
