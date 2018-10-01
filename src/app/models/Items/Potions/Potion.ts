@@ -1,4 +1,5 @@
 import {Item} from "../Item";
+import { PotionType } from "../../../enums/PotionType";
 
 /**
  * A potion object
@@ -8,6 +9,8 @@ export class Potion extends Item {
   public static defaultPath = "../../../../assets/img/potions/";
   // The asset image default extension
   public static defaultExt = ".png";
+  // The type of potion this object is
+  public type: PotionType;
 
   /**
    * Constructor to create a basic potion that handles all pathing and extensions
