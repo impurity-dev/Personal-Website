@@ -1,9 +1,16 @@
 <div class="action-bar-container">
   <div class="action-bar-row-container row">
-    <app-minimap class="action-bar-row-container-large"></app-minimap>
-    <app-avatar class="action-bar-row-container-large"></app-avatar>
-    <app-spell-tray class="action-bar-row-container-small col"></app-spell-tray>
-    <app-settings-tray class="action-bar-row-container-large"></app-settings-tray>
-    <app-item-tray class="action-bar-row-container-large"></app-item-tray>
+    <!-- Hides @1200px -->
+    <app-minimap id="minimap" class="action-bar-row-container-large"></app-minimap>
+    <!-- Hides @1000px -->
+    <app-avatar id="avatar" class="action-bar-row-container-large"></app-avatar>
+    <!-- Shows @1000px-->
+    <app-settings-tray id="settings-left" class="action-bar-row-container-large"></app-settings-tray>
+    <!-- Shows always -->
+    <app-spell-tray id="spells" class="action-bar-row-container-small col"></app-spell-tray>
+    <!-- Hides @100px -->
+    <app-settings-tray id="settings-right" class="action-bar-row-container-large"></app-settings-tray>
+    <!-- Hides @500px -->
+    <app-item-tray id="bag" class="action-bar-row-container-large"></app-item-tray>
   </div>
 </div>

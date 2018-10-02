@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Setting } from "../../../../models/Settings/Setting";
 
 @Component({
   selector: "app-settings-tray",
@@ -7,7 +8,23 @@ import { Component, OnInit } from "@angular/core";
 })
 export class SettingsTrayComponent implements OnInit {
 
-  constructor() { }
+  settings: Setting[][];
+
+  constructor() {
+    this.settings = [
+      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
+      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
+
+    ];
+  }
 
   ngOnInit() {
   }

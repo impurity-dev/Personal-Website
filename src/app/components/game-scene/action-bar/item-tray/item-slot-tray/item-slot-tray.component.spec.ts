@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { ItemTabTrayComponent } from "./item-tab-tray.component";
+import { ItemSlotTrayComponent } from "./item-slot-tray.component";
 
-describe("ItemTabTrayComponent", () => {
-  let component: ItemTabTrayComponent;
-  let fixture: ComponentFixture<ItemTabTrayComponent>;
+describe("ItemSlotTrayComponent", () => {
+  let component: ItemSlotTrayComponent;
+  let fixture: ComponentFixture<ItemSlotTrayComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ItemTabTrayComponent ]
+      declarations: [ ItemSlotTrayComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ItemTabTrayComponent);
+    fixture = TestBed.createComponent(ItemSlotTrayComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

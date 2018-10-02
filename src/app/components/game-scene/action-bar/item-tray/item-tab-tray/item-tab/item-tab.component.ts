@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
 
 @Component({
   selector: "app-item-tab",
@@ -6,10 +6,23 @@ import { Component, OnInit, Input } from "@angular/core";
   styleUrls: ["./item-tab.component.css"]
 })
 export class ItemTabComponent implements OnInit {
+  // The currently selected index
+  @Input() selectedIndex: number;
+  // Event to notify parent that this tab was activated
+  @Output() selectedIndexChange: EventEmitter<number>;
+  // The index for the current slot
+  @Input() index: number;
+  // Tab name
+  @Input() name: String;
+  // Tab icon imagePath
+  @Input() imagePath: String;
 
-  @Input() isActive: boolean;
-
-  constructor() { }
+  /**
+   * Item tab represents a bag that is equipped
+   */
+  constructor() {
+    this.selectedIndexChange = new EventEmitter<number>();
+   }
 
   ngOnInit() {
   }
@@ -20,9 +33,8 @@ export class ItemTabComponent implements OnInit {
    * If ALREADY active, do nothing
    */
   toggleTab() {
-    if (!this.isActive) {
-      this.isActive = true;
-      // TODO: Notify tray that an index has been updated
+    if (this.index !== this.selectedIndex) {
+      this.selectedIndexChange.emit(this.index);
     }
   }
 

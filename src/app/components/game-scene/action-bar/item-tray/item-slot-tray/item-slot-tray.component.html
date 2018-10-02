@@ -1,0 +1,5 @@
+<tr *ngFor="let itemRow of items[selectedIndex]; let i = index">
+  <td *ngFor="let item of items[selectedIndex][i]">
+    <app-item-slot imagePath={{item.imagePath}} name={{item.name}} ></app-item-slot>
+  </td>
+</tr>
