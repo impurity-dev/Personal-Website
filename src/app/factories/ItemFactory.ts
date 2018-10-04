@@ -14,8 +14,9 @@ import { Setting } from "../models/Settings/Setting";
 import { SpellFactory } from "./SpellFactory";
 import { SpellType } from "../enums/SpellType";
 import { Spell } from "../models/Spells/Spell";
-import { PotionType } from "../enums/PotionType";
+import { PotionType } from "../enums/Potions/PotionType";
 import { ArmorFactory } from "./ArmorFactory";
+import { PotionColor } from "../enums/Potions/PotionColor";
 
 /**
  * Item factory will create any potion based off Item enums
@@ -26,8 +27,8 @@ export class ItemFactory {
    * Create any potion based off type
    * @param type Potion to be created
    */
-  public static CreatePotion(type: PotionType): Potion {
-    return PotionFactory.Create(type);
+  public static CreatePotion(type: PotionType, color: PotionColor): Potion {
+    return PotionFactory.Create(type, color);
   }
 
   /**
