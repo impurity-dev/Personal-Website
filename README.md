@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/tmk2003/Personal-Website.svg?branch=master)](https://travis-ci.org/tmk2003/Personal-Website)
 ![DUB](https://img.shields.io/dub/l/vibe-d.svg)
+![node (scoped)](https://img.shields.io/node/v/@stdlib/stdlib.svg)
+![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)
+![AppVeyor tests](https://img.shields.io/appveyor/tests/NZSmartie/coap-net-iu0to.svg)
+
 
 # PersonalWebsite
 
