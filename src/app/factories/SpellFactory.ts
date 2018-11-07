@@ -11,7 +11,7 @@ export class SpellFactory {
    * @param type Potion to be created
    */
   public static Create(type: SpellType): Spell {
-
+    // TODO: Finish this
     return null;
   }
 }

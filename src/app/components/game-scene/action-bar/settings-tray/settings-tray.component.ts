@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Setting } from "../../../../models/Settings/Setting";
+import { SocialMedia } from "../../../../models/Settings/SocialMedia";
 
 @Component({
   selector: "app-settings-tray",
@@ -8,21 +8,40 @@ import { Setting } from "../../../../models/Settings/Setting";
 })
 export class SettingsTrayComponent implements OnInit {
 
-  settings: Setting[][];
+  settings: SocialMedia[][];
 
   constructor() {
     this.settings = [
-      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
-      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
-      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
-      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
-      [new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"),
-      new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub"), new Setting("GitHub", "GitHub")],
-
+      [
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub")
+      ],
+      [
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub")
+      ],
+      [
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub")
+      ],
+      [
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub")
+      ],
+      [
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub"), new SocialMedia("GitHub", "GitHub"),
+        new SocialMedia("GitHub", "GitHub")
+      ],
     ];
   }
 

@@ -1,6 +1,12 @@
 .slot-container {
-  background-image: url("../../../../../../assets/img/social-media/default-button.png");
-  background-size: cover;
   width: 25px;
   height: 25px;
+}
+
+/* 1400px Shrink Action bar */
+@media only screen and (max-width: 1400px) {
+  .slot-container {
+    width: 18px;
+    height: 18px;
+  }
 }
