@@ -18,7 +18,7 @@ install:
 
 script:
   - yarn lint
-  - yarn build --base-href https://tmk2003.github.io/personal-website/
+  - yarn build --base-href https://tmk2003.github.io/Personal-Website/
 deploy:
   provider: pages
   skip_cleanup: true
