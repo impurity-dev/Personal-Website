@@ -1,6 +1,9 @@
 import { Setting } from "./Setting";
 import { ImageRoutes } from "src/app/constants/ImageRoutes";
 
+/**
+ * Social Media Button Representation
+ */
 export class SocialMedia extends Setting {
   /**
    * Constructor to create a basic potion that handles all pathing and extensions

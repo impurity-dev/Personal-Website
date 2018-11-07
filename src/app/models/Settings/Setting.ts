@@ -2,7 +2,7 @@ import { NamedImage } from "../../models/NamedImage";
 import { ImageRoutes } from "src/app/constants/ImageRoutes";
 
 /**
- * Create a setting
+ * Setting Representation
  */
 export class Setting extends NamedImage {
   /**
