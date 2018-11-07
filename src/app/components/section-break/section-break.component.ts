@@ -5,6 +5,6 @@ import { Component, Input } from "@angular/core";
   templateUrl: "./section-break.component.html",
   styleUrls: ["./section-break.component.css"]
 })
-export class SectionBreakComponent{
+export class SectionBreakComponent {
   @Input() title: string;
 }
