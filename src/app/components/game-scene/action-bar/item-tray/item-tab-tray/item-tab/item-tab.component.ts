@@ -1,11 +1,11 @@
-import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
+import { Component, Input, Output, EventEmitter } from "@angular/core";
 
 @Component({
   selector: "app-item-tab",
   templateUrl: "./item-tab.component.html",
   styleUrls: ["./item-tab.component.css"]
 })
-export class ItemTabComponent implements OnInit {
+export class ItemTabComponent {
   // The currently selected index
   @Input() selectedIndex: number;
   // Event to notify parent that this tab was activated
@@ -23,9 +23,6 @@ export class ItemTabComponent implements OnInit {
   constructor() {
     this.selectedIndexChange = new EventEmitter<number>();
    }
-
-  ngOnInit() {
-  }
 
   /**
    * Click event handler for the tab component

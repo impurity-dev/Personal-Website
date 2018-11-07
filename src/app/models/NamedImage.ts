@@ -1,7 +1,13 @@
+import { ImageRoutes } from "../constants/ImageRoutes";
+
 /**
  * An image & name pairing
+ * All images must be located in the assets/img folder
  */
 export class NamedImage {
+  // The asset image default extension
+  public static defaultExt = ".png";
+
   // The image path to the source
   protected imagePath: string;
   // The name of the image
@@ -14,7 +20,7 @@ export class NamedImage {
    * @param name name of image
    */
   constructor(imagePath: string, name: string) {
-    this.imagePath = imagePath;
+    this.imagePath = ImageRoutes.DEFAULT + imagePath + NamedImage.defaultExt;
     this.name = name;
   }
 
@@ -28,7 +34,7 @@ export class NamedImage {
   /**
    * Get the name
    */
-  public getNamePath(): string {
+  public getName(): string {
     return this.name;
   }
 }

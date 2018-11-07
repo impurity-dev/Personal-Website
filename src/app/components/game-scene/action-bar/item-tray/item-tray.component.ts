@@ -1,11 +1,11 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 
 @Component({
   selector: "app-item-tray",
   templateUrl: "./item-tray.component.html",
   styleUrls: ["./item-tray.component.css"]
 })
-export class ItemTrayComponent implements OnInit {
+export class ItemTrayComponent {
 
   // The currently selected index
   selectedIndex: number;
@@ -13,9 +13,6 @@ export class ItemTrayComponent implements OnInit {
   constructor() {
     this.selectedIndex = 0;
    }
-
-  ngOnInit() {
-  }
 
   /**
    * Update the selected index at the top parent

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, Input } from "@angular/core";
 import { Item } from "../../../../../models/Items/Item";
 import { ItemFactory } from "../../../../../factories/ItemFactory";
 import { PotionType } from "../../../../../enums/Potions/PotionType";
@@ -10,7 +10,7 @@ import { PotionColor } from "../../../../../enums/Potions/PotionColor";
   templateUrl: "./item-slot-tray.component.html",
   styleUrls: ["./item-slot-tray.component.css"]
 })
-export class ItemSlotTrayComponent implements OnInit {
+export class ItemSlotTrayComponent {
   @Input() selectedIndex: number;
   items: Item[][][];
 
@@ -173,8 +173,4 @@ export class ItemSlotTrayComponent implements OnInit {
       ]
     ];
    }
-
-  ngOnInit() {
-  }
-
 }

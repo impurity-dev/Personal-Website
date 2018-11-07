@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { SpellSlotComponent } from './spell-slot.component';
+import { SpellSlotComponent } from "./spell-slot.component";
 
-describe('SpellSlotComponent', () => {
+describe("SpellSlotComponent", () => {
   let component: SpellSlotComponent;
   let fixture: ComponentFixture<SpellSlotComponent>;
 
@@ -19,7 +19,7 @@ describe('SpellSlotComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

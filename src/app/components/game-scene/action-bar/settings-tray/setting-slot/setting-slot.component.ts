@@ -1,18 +1,13 @@
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
   selector: "app-setting-slot",
   templateUrl: "./setting-slot.component.html",
   styleUrls: ["./setting-slot.component.css"]
 })
-export class SettingSlotComponent implements OnInit {
+export class SettingSlotComponent {
 
   @Input() imagePath: string;
   @Input() name: string;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  @Input() link: string;
 }

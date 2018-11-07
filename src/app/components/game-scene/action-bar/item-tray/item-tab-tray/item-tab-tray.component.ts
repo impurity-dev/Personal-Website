@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
+import { Component, Input, Output, EventEmitter } from "@angular/core";
 
 import {ItemTab} from "../../../../../models/Items/ItemTabs/ItemTab";
 
@@ -7,7 +7,7 @@ import {ItemTab} from "../../../../../models/Items/ItemTabs/ItemTab";
   templateUrl: "./item-tab-tray.component.html",
   styleUrls: ["./item-tab-tray.component.css"]
 })
-export class ItemTabTrayComponent implements OnInit {
+export class ItemTabTrayComponent {
   @Input() selectedIndex: number;
   @Output() selectedIndexChange: EventEmitter<number>;
   itemTabs: ItemTab[];
@@ -23,10 +23,6 @@ export class ItemTabTrayComponent implements OnInit {
       new ItemTab("Pink", "Bag 5")
     ];
   }
-
-  ngOnInit() {
-  }
-
 
   updateSelectedIndex(updatedIndex) {
     this.selectedIndexChange.emit(updatedIndex);

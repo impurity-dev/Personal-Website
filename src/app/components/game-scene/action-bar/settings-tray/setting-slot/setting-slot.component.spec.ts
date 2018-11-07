@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { SettingSlotComponent } from './setting-slot.component';
+import { SettingSlotComponent } from "./setting-slot.component";
 
-describe('SettingSlotComponent', () => {
+describe("SettingSlotComponent", () => {
   let component: SettingSlotComponent;
   let fixture: ComponentFixture<SettingSlotComponent>;
 
@@ -19,7 +19,7 @@ describe('SettingSlotComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
